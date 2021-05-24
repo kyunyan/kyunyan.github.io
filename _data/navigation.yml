@@ -2,8 +2,8 @@
 
 main:
   - title: "Home"
-    url: https://JinHoooooou.github.io
-  - title: "About"
-    url: /about/
-  - title: "블로그 만들기"
-    url: /MakingBlog/
+    url: https://kyunyan.github.io/ 
+  - title: "개인공부용 블로그"
+    url: https://geowan.tistory.com/
+  - title: "TIL"
+    url: /TIL/
