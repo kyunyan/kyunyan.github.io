@@ -35,4 +35,29 @@ git log --all --decorate --oneline --graph
 1. merge 로 합치기
 메인 브랜치에서 특정 브랜치를 합칠때 메인 브랜치로 이동한 후
 
-git merge 특정브랜치
+git merge 특정브랜치 
+
+2. Rebase 로 합치기
+
+특정 브랜치와 메인 브랜치를 합칠때
+특정 브랜치로 이동후 메인 브랜치를 rebase 한다.
+
+git rebase master
+
+하면 특정브랜치 스냅샷이 더 앞에 있을텐대
+마스터 브랜치 이동후 특정브랜치를 머지로 합처준다
+
+### merge, rebase 충돌시 
+
+1. merge 충돌시
+머지 충돌시 충돌 해결 후 에드 커밋 해주면 된다.
+
+당장 해결 불가능할시 
+git merge --abort
+
+2. rebase 충돌시
+리베이스 충돌시 에드 후
+git rebase --continue
+
+당장 해결 불가능할시 
+git rebase --abort

@@ -19,3 +19,11 @@ git reset --hard 커밋아이디를 통해 현재 가고싶은 이전버전으�
 git revert (되돌릴 커밋 해시)
 
 git revert --continue
+
+커밋되징낳은 상태로 되돌린다
+git revert --no-commit (되돌릴 커밋 해시)
+
+소스트리로 리버트는 커밋 되돌리기
+
+
+
